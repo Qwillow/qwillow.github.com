@@ -1,0 +1,174 @@
+nav{
+	background: transparent;
+	height: 50px;
+	margin: 0;
+}
+#banner{
+	background: transparent;
+	height:700px;
+}
+.main-wrap #banner{
+	height: 400px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+nav ul li,nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+	
+}
+nav ul li a{
+	line-height: inherit;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+	
+}
+
+.inner{
+	max-width: 300px;
+	    color: #413838;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 130px;
+	
+	
+}
+.inner h1{
+	margin: 0;
+	
+}
+button{
+	border: none;
+	background: #338FCC;
+	color: #eee;
+	padding : 8px;
+	
+}
+
+
+.logo{
+	margin: 0;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-left: 10px;
+	
+	
+	
+}
+.logo a{
+text-decoration: none;
+	color: #fff;
+}
+/*内容！！！！！！！*/
+h2{
+	font-size: 30px;
+}
+.wrapper h2{
+	margin: 0;
+}
+
+footer{
+	background: #333;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+}
+ul.share-group{
+	display: block;
+	margin: 0 auto;
+	width: 1080px;
+	padding: 20px;
+}
+.share-group li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.main-wrap{
+	background: #444 url(../img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center center; 
+	overflow: hidden;
+}
+
+.mask{
+	display: none;
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	background: rgba(0,0,0,0.3);
+}
+#sidebar{
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	right: -300px;
+	width: 300px;
+	background: #333;
+	color: #fff;
+	padding: 20px 0;
+	transition: right 0.5s;
+	
+}
+#sidebar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul a{
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 30px;
+	display: inline-block;
+}
+#sidebar ul a:hover{
+	background: #444;
+}
+.back-to-top{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border: 1px solid #888;
+	background: #888;
+}
+
+.article h1{
+	border: none;
+}
+.content-wrap{
+	width: 1080px;
+	margin: 0 auto;
+	min-height: 300px;
+}
+
+.main-wrap .content{
+	background: #fefefe;
+	text-align: center;
+	
+	
+}
+article{
+	line-height: 2;
+	padding: 10px 0;
+}
+.content-info{
+	font-size: 13px;
+	color: #888;
+	padding: 15px;
+}
